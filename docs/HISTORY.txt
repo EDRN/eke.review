@@ -1,0 +1,20 @@
+Changelog
+=========
+
+A retrospective of the various releases this component has had, what's been
+changed, what's been fixed, and so forth, follows.
+
+1.0.0 - Plone 4
+---------------
+
+This release of eke.review makes it compatible with Plone 4.
+
+
+Release 0.0.0
+-------------
+
+Beta release. This release is destined to become the FCS_.
+
+
+.. References:
+.. _FCS: http://en.wikipedia.org/wiki/Development_stage
