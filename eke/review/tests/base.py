@@ -9,6 +9,7 @@ from Products.Five import fiveconfigure
 from Products.Five import zcml
 from Products.PloneTestCase import PloneTestCase as ptc
 from Products.PloneTestCase.layer import onsetup
+from Testing import ZopeTestCase as ztc
 
 # Traditional Products we have to load manually for test cases:
 # (none at this time)
@@ -20,6 +21,7 @@ def setupEKESite():
     import eke.review
     zcml.load_config('configure.zcml', eke.review)
     fiveconfigure.debug_mode = False
+    ztc.installPackage('eke.review')
 
 setupEKESite()
 ptc.setupPloneSite(products=['eke.review'])
