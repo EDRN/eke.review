@@ -1,5 +1,5 @@
 # encoding: utf-8
-# Copyright 2009-2010 California Institute of Technology. ALL RIGHTS
+# Copyright 2009–2012 California Institute of Technology. ALL RIGHTS
 # RESERVED. U.S. Government Sponsorship acknowledged.
 
 from setuptools import setup, find_packages
@@ -20,10 +20,13 @@ _namespaces  = ['eke']
 _entryPoints = {}
 _zipSafe     = False
 _keywords    = 'web zope plone edrn cancer biomarkers eke knowledge qc review quality'
+_extras = {
+    'test': ['plone.app.testing'],
+}
 _requirements = [
     'setuptools',
     'Products.PloneFormGen',
-    'Plone',
+    'Products.CMFPlone',
 ]
 _classifiers = [
     'Development Status :: 4 - Beta',
@@ -57,6 +60,7 @@ setup(
     description=_description,
     download_url=_downloadURL,
     entry_points=_entryPoints,
+    extras_require=_extras,
     include_package_data=True,
     install_requires=_requirements,
     keywords=_keywords,
