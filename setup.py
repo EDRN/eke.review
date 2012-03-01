@@ -9,7 +9,7 @@ import os.path
 # ------------
 
 _name        = 'eke.review'
-_version     = '1.0.2'
+_version     = '1.0.3'
 _description = 'Review and Quality Control for the EDRN Knowledge Environment'
 _url         = 'http://cancer.jpl.nasa.gov/products/eke-review'
 _downloadURL = 'http://oodt.jpl.nasa.gov/dist/eke'
