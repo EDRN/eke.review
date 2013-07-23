@@ -10,7 +10,7 @@ RESERVED. U.S. Government Sponsorship acknowledged.
     xmlns:cmf='http://namespaces.zope.org/cmf'
     i18n_domain='eke.review'>
     <five:registerPackage package="." initialize=".initialize" />
-    <include package='Products.PloneFormGen' />
+    <includeDependencies package='.' />
     <include package='.content' />
     <cmf:registerDirectory name='eke_review_custom_templates' />
     <genericsetup:registerProfile 
