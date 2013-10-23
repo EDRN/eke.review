@@ -1,5 +1,5 @@
 # encoding: utf-8
-# Copyright 2009–2012 California Institute of Technology. ALL RIGHTS
+# Copyright 2009–2013 California Institute of Technology. ALL RIGHTS
 # RESERVED. U.S. Government Sponsorship acknowledged.
 
 from setuptools import setup, find_packages
@@ -9,7 +9,7 @@ import os.path
 # ------------
 
 _name        = 'eke.review'
-_version     = '1.0.3'
+_version     = '1.0.4'
 _description = 'Review and Quality Control for the EDRN Knowledge Environment'
 _url         = 'http://cancer.jpl.nasa.gov/products/eke-review'
 _downloadURL = 'http://oodt.jpl.nasa.gov/dist/eke'
