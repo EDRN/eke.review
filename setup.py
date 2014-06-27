@@ -9,7 +9,7 @@ import os.path
 # ------------
 
 _name        = 'eke.review'
-_version     = '1.0.4'
+_version     = '1.0.5'
 _description = 'Review and Quality Control for the EDRN Knowledge Environment'
 _author      = 'Sean Kelly'
 _authorEmail = 'sean.kelly@jpl.nasa.gov'
