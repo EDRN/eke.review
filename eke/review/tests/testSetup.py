@@ -9,7 +9,7 @@ from eke.review.config import PROJECTNAME
 from Products.Archetypes.public import listTypes
 from Products.CMFCore.utils import getToolByName
 from Products.CMFPlone.utils import safe_hasattr
-import unittest2 as unittest
+import unittest
 from eke.review.testing import EKE_REVIEW_INTEGRATION_TESTING
 
 class SetupTest(unittest.TestCase):

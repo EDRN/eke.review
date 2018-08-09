@@ -5,6 +5,12 @@ A retrospective of the various releases this component has had, what's been
 changed, what's been fixed, and so forth, follows.
 
 
+1.0.5 — Plone 4.3.9 Upgrade
+---------------------------
+
+• CA-1592
+
+
 1.0.4 — I Had Some Chicken; Pass Me the FLOSS
 ---------------------------------------------
 
